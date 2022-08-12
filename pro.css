@@ -1,0 +1,111 @@
+
+body {
+    background-color: aqua;
+}
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black: #212b38;
+
+}
+
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu__bar{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2px 5%;
+}
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+
+}
+.logo {
+    color: var(--color-primary);
+    background:;
+    
+
+}
+
+.menu__bar ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: 20px;
+}
+.menu__bar ul li {
+    padding: 10px 60px;
+    background: #141d28;
+    position: relative;
+
+}
+
+.menu__bar ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.menu__bar ul a:hover {
+    color: var(--color-primary);
+}
+
+
+
+
+.header p{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+input {
+    width: 1000px;
+    height: 60px;
+    margin: px;
+    margin-left: 120px;
+}
+
+button{
+    height: 60;
+    height: 65px;
+    color: #0073ff;
+    background-color: #141d28;
+
+}
+
+.shuka{
+    display: none;
+}
+
+.shuka{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: var(--color-black);
+}
+
+.shuka ul {
+    display: block;
+    margin: 10px;
+}
+.shuka ul li {
+    width: 150px;
+    padding: 10px;
+}
